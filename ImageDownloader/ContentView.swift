@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        SelfLoadingImageView(urlString: "https://picsum.photos/200")
             .padding()
     }
 }

@@ -14,6 +14,8 @@
 		5375A3FD275F302B00BFFD46 /* ImageDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375A3FC275F302B00BFFD46 /* ImageDownloaderTests.swift */; };
 		5375A407275F302B00BFFD46 /* ImageDownloaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375A406275F302B00BFFD46 /* ImageDownloaderUITests.swift */; };
 		5375A409275F302B00BFFD46 /* ImageDownloaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375A408275F302B00BFFD46 /* ImageDownloaderUITestsLaunchTests.swift */; };
+		5375A416275F305700BFFD46 /* SelfLoadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375A415275F305700BFFD46 /* SelfLoadingImageView.swift */; };
+		5375A419275F349000BFFD46 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375A418275F349000BFFD46 /* Loader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		5375A402275F302B00BFFD46 /* ImageDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5375A406275F302B00BFFD46 /* ImageDownloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderUITests.swift; sourceTree = "<group>"; };
 		5375A408275F302B00BFFD46 /* ImageDownloaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5375A415275F305700BFFD46 /* SelfLoadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfLoadingImageView.swift; sourceTree = "<group>"; };
+		5375A418275F349000BFFD46 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 				5375A3ED275F302800BFFD46 /* ContentView.swift */,
 				5375A3EF275F302A00BFFD46 /* Assets.xcassets */,
 				5375A3F1275F302A00BFFD46 /* Preview Content */,
+				5375A417275F347700BFFD46 /* Self loading image view */,
 			);
 			path = ImageDownloader;
 			sourceTree = "<group>";
@@ -125,6 +130,15 @@
 				5375A408275F302B00BFFD46 /* ImageDownloaderUITestsLaunchTests.swift */,
 			);
 			path = ImageDownloaderUITests;
+			sourceTree = "<group>";
+		};
+		5375A417275F347700BFFD46 /* Self loading image view */ = {
+			isa = PBXGroup;
+			children = (
+				5375A415275F305700BFFD46 /* SelfLoadingImageView.swift */,
+				5375A418275F349000BFFD46 /* Loader.swift */,
+			);
+			path = "Self loading image view";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5375A3EE275F302800BFFD46 /* ContentView.swift in Sources */,
+				5375A416275F305700BFFD46 /* SelfLoadingImageView.swift in Sources */,
+				5375A419275F349000BFFD46 /* Loader.swift in Sources */,
 				5375A3EC275F302800BFFD46 /* ImageDownloaderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
