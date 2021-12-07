@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SelfLoadingImageView: View {
     
-    @StateObject var loader: Loader = Loader()
+    @StateObject var loader: CombineImageLoader = CombineImageLoader()
     let urlString: String?
     let placeholderText: String
     let placeholderColor: Color

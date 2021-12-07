@@ -9,7 +9,7 @@ import Foundation
 import Combine
 import UIKit
 
-class Loader: ObservableObject {
+class CombineImageLoader: ObservableObject {
     
     @Published var state: State = .waiting
     

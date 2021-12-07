@@ -15,7 +15,7 @@
 		5375A407275F302B00BFFD46 /* ImageDownloaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375A406275F302B00BFFD46 /* ImageDownloaderUITests.swift */; };
 		5375A409275F302B00BFFD46 /* ImageDownloaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375A408275F302B00BFFD46 /* ImageDownloaderUITestsLaunchTests.swift */; };
 		5375A416275F305700BFFD46 /* SelfLoadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375A415275F305700BFFD46 /* SelfLoadingImageView.swift */; };
-		5375A419275F349000BFFD46 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375A418275F349000BFFD46 /* Loader.swift */; };
+		5375A419275F349000BFFD46 /* CombineImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375A418275F349000BFFD46 /* CombineImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,7 @@
 		5375A406275F302B00BFFD46 /* ImageDownloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderUITests.swift; sourceTree = "<group>"; };
 		5375A408275F302B00BFFD46 /* ImageDownloaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5375A415275F305700BFFD46 /* SelfLoadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfLoadingImageView.swift; sourceTree = "<group>"; };
-		5375A418275F349000BFFD46 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		5375A418275F349000BFFD46 /* CombineImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				5375A415275F305700BFFD46 /* SelfLoadingImageView.swift */,
-				5375A418275F349000BFFD46 /* Loader.swift */,
+				5375A418275F349000BFFD46 /* CombineImageLoader.swift */,
 			);
 			path = "Self loading image view";
 			sourceTree = "<group>";
@@ -273,7 +273,7 @@
 			files = (
 				5375A3EE275F302800BFFD46 /* ContentView.swift in Sources */,
 				5375A416275F305700BFFD46 /* SelfLoadingImageView.swift in Sources */,
-				5375A419275F349000BFFD46 /* Loader.swift in Sources */,
+				5375A419275F349000BFFD46 /* CombineImageLoader.swift in Sources */,
 				5375A3EC275F302800BFFD46 /* SwiftUISelfLoadingImageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
