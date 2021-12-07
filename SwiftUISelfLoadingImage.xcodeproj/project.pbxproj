@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5375A3EC275F302800BFFD46 /* ImageDownloaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375A3EB275F302800BFFD46 /* ImageDownloaderApp.swift */; };
+		5375A3EC275F302800BFFD46 /* SwiftUISelfLoadingImageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375A3EB275F302800BFFD46 /* SwiftUISelfLoadingImageApp.swift */; };
 		5375A3EE275F302800BFFD46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375A3ED275F302800BFFD46 /* ContentView.swift */; };
 		5375A3F0275F302A00BFFD46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5375A3EF275F302A00BFFD46 /* Assets.xcassets */; };
 		5375A3F3275F302A00BFFD46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5375A3F2275F302A00BFFD46 /* Preview Assets.xcassets */; };
@@ -36,14 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5375A3E8275F302800BFFD46 /* ImageDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5375A3EB275F302800BFFD46 /* ImageDownloaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderApp.swift; sourceTree = "<group>"; };
+		5375A3E8275F302800BFFD46 /* SwiftUISelfLoadingImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISelfLoadingImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5375A3EB275F302800BFFD46 /* SwiftUISelfLoadingImageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISelfLoadingImageApp.swift; sourceTree = "<group>"; };
 		5375A3ED275F302800BFFD46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5375A3EF275F302A00BFFD46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5375A3F2275F302A00BFFD46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5375A3F8275F302A00BFFD46 /* ImageDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5375A3F8275F302A00BFFD46 /* SwiftUISelfLoadingImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISelfLoadingImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5375A3FC275F302B00BFFD46 /* ImageDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderTests.swift; sourceTree = "<group>"; };
-		5375A402275F302B00BFFD46 /* ImageDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5375A402275F302B00BFFD46 /* SwiftUISelfLoadingImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISelfLoadingImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5375A406275F302B00BFFD46 /* ImageDownloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderUITests.swift; sourceTree = "<group>"; };
 		5375A408275F302B00BFFD46 /* ImageDownloaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5375A415275F305700BFFD46 /* SelfLoadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfLoadingImageView.swift; sourceTree = "<group>"; };
@@ -78,9 +78,9 @@
 		5375A3DF275F302800BFFD46 = {
 			isa = PBXGroup;
 			children = (
-				5375A3EA275F302800BFFD46 /* ImageDownloader */,
-				5375A3FB275F302B00BFFD46 /* ImageDownloaderTests */,
-				5375A405275F302B00BFFD46 /* ImageDownloaderUITests */,
+				5375A3EA275F302800BFFD46 /* SwiftUISelfLoadingImage */,
+				5375A3FB275F302B00BFFD46 /* SwiftUISelfLoadingImageTests */,
+				5375A405275F302B00BFFD46 /* SwiftUISelfLoadingImageUITests */,
 				5375A3E9275F302800BFFD46 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,23 +88,23 @@
 		5375A3E9275F302800BFFD46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5375A3E8275F302800BFFD46 /* ImageDownloader.app */,
-				5375A3F8275F302A00BFFD46 /* ImageDownloaderTests.xctest */,
-				5375A402275F302B00BFFD46 /* ImageDownloaderUITests.xctest */,
+				5375A3E8275F302800BFFD46 /* SwiftUISelfLoadingImage.app */,
+				5375A3F8275F302A00BFFD46 /* SwiftUISelfLoadingImageTests.xctest */,
+				5375A402275F302B00BFFD46 /* SwiftUISelfLoadingImageUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5375A3EA275F302800BFFD46 /* ImageDownloader */ = {
+		5375A3EA275F302800BFFD46 /* SwiftUISelfLoadingImage */ = {
 			isa = PBXGroup;
 			children = (
-				5375A3EB275F302800BFFD46 /* ImageDownloaderApp.swift */,
+				5375A3EB275F302800BFFD46 /* SwiftUISelfLoadingImageApp.swift */,
 				5375A3ED275F302800BFFD46 /* ContentView.swift */,
 				5375A3EF275F302A00BFFD46 /* Assets.xcassets */,
 				5375A3F1275F302A00BFFD46 /* Preview Content */,
 				5375A417275F347700BFFD46 /* Self loading image view */,
 			);
-			path = ImageDownloader;
+			path = SwiftUISelfLoadingImage;
 			sourceTree = "<group>";
 		};
 		5375A3F1275F302A00BFFD46 /* Preview Content */ = {
@@ -115,21 +115,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5375A3FB275F302B00BFFD46 /* ImageDownloaderTests */ = {
+		5375A3FB275F302B00BFFD46 /* SwiftUISelfLoadingImageTests */ = {
 			isa = PBXGroup;
 			children = (
 				5375A3FC275F302B00BFFD46 /* ImageDownloaderTests.swift */,
 			);
-			path = ImageDownloaderTests;
+			path = SwiftUISelfLoadingImageTests;
 			sourceTree = "<group>";
 		};
-		5375A405275F302B00BFFD46 /* ImageDownloaderUITests */ = {
+		5375A405275F302B00BFFD46 /* SwiftUISelfLoadingImageUITests */ = {
 			isa = PBXGroup;
 			children = (
 				5375A406275F302B00BFFD46 /* ImageDownloaderUITests.swift */,
 				5375A408275F302B00BFFD46 /* ImageDownloaderUITestsLaunchTests.swift */,
 			);
-			path = ImageDownloaderUITests;
+			path = SwiftUISelfLoadingImageUITests;
 			sourceTree = "<group>";
 		};
 		5375A417275F347700BFFD46 /* Self loading image view */ = {
@@ -144,9 +144,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5375A3E7275F302800BFFD46 /* ImageDownloader */ = {
+		5375A3E7275F302800BFFD46 /* SwiftUISelfLoadingImage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5375A40C275F302B00BFFD46 /* Build configuration list for PBXNativeTarget "ImageDownloader" */;
+			buildConfigurationList = 5375A40C275F302B00BFFD46 /* Build configuration list for PBXNativeTarget "SwiftUISelfLoadingImage" */;
 			buildPhases = (
 				5375A3E4275F302800BFFD46 /* Sources */,
 				5375A3E5275F302800BFFD46 /* Frameworks */,
@@ -156,14 +156,14 @@
 			);
 			dependencies = (
 			);
-			name = ImageDownloader;
+			name = SwiftUISelfLoadingImage;
 			productName = ImageDownloader;
-			productReference = 5375A3E8275F302800BFFD46 /* ImageDownloader.app */;
+			productReference = 5375A3E8275F302800BFFD46 /* SwiftUISelfLoadingImage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5375A3F7275F302A00BFFD46 /* ImageDownloaderTests */ = {
+		5375A3F7275F302A00BFFD46 /* SwiftUISelfLoadingImageTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5375A40F275F302B00BFFD46 /* Build configuration list for PBXNativeTarget "ImageDownloaderTests" */;
+			buildConfigurationList = 5375A40F275F302B00BFFD46 /* Build configuration list for PBXNativeTarget "SwiftUISelfLoadingImageTests" */;
 			buildPhases = (
 				5375A3F4275F302A00BFFD46 /* Sources */,
 				5375A3F5275F302A00BFFD46 /* Frameworks */,
@@ -174,14 +174,14 @@
 			dependencies = (
 				5375A3FA275F302A00BFFD46 /* PBXTargetDependency */,
 			);
-			name = ImageDownloaderTests;
+			name = SwiftUISelfLoadingImageTests;
 			productName = ImageDownloaderTests;
-			productReference = 5375A3F8275F302A00BFFD46 /* ImageDownloaderTests.xctest */;
+			productReference = 5375A3F8275F302A00BFFD46 /* SwiftUISelfLoadingImageTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5375A401275F302B00BFFD46 /* ImageDownloaderUITests */ = {
+		5375A401275F302B00BFFD46 /* SwiftUISelfLoadingImageUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5375A412275F302B00BFFD46 /* Build configuration list for PBXNativeTarget "ImageDownloaderUITests" */;
+			buildConfigurationList = 5375A412275F302B00BFFD46 /* Build configuration list for PBXNativeTarget "SwiftUISelfLoadingImageUITests" */;
 			buildPhases = (
 				5375A3FE275F302B00BFFD46 /* Sources */,
 				5375A3FF275F302B00BFFD46 /* Frameworks */,
@@ -192,9 +192,9 @@
 			dependencies = (
 				5375A404275F302B00BFFD46 /* PBXTargetDependency */,
 			);
-			name = ImageDownloaderUITests;
+			name = SwiftUISelfLoadingImageUITests;
 			productName = ImageDownloaderUITests;
-			productReference = 5375A402275F302B00BFFD46 /* ImageDownloaderUITests.xctest */;
+			productReference = 5375A402275F302B00BFFD46 /* SwiftUISelfLoadingImageUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -220,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5375A3E3275F302800BFFD46 /* Build configuration list for PBXProject "ImageDownloader" */;
+			buildConfigurationList = 5375A3E3275F302800BFFD46 /* Build configuration list for PBXProject "SwiftUISelfLoadingImage" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -233,9 +233,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5375A3E7275F302800BFFD46 /* ImageDownloader */,
-				5375A3F7275F302A00BFFD46 /* ImageDownloaderTests */,
-				5375A401275F302B00BFFD46 /* ImageDownloaderUITests */,
+				5375A3E7275F302800BFFD46 /* SwiftUISelfLoadingImage */,
+				5375A3F7275F302A00BFFD46 /* SwiftUISelfLoadingImageTests */,
+				5375A401275F302B00BFFD46 /* SwiftUISelfLoadingImageUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -274,7 +274,7 @@
 				5375A3EE275F302800BFFD46 /* ContentView.swift in Sources */,
 				5375A416275F305700BFFD46 /* SelfLoadingImageView.swift in Sources */,
 				5375A419275F349000BFFD46 /* Loader.swift in Sources */,
-				5375A3EC275F302800BFFD46 /* ImageDownloaderApp.swift in Sources */,
+				5375A3EC275F302800BFFD46 /* SwiftUISelfLoadingImageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,12 +300,12 @@
 /* Begin PBXTargetDependency section */
 		5375A3FA275F302A00BFFD46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5375A3E7275F302800BFFD46 /* ImageDownloader */;
+			target = 5375A3E7275F302800BFFD46 /* SwiftUISelfLoadingImage */;
 			targetProxy = 5375A3F9275F302A00BFFD46 /* PBXContainerItemProxy */;
 		};
 		5375A404275F302B00BFFD46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5375A3E7275F302800BFFD46 /* ImageDownloader */;
+			target = 5375A3E7275F302800BFFD46 /* SwiftUISelfLoadingImage */;
 			targetProxy = 5375A403275F302B00BFFD46 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -434,7 +434,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ImageDownloader/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUISelfLoadingImage/Preview Content\"";
 				DEVELOPMENT_TEAM = Q4783BNZ95;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -464,7 +464,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ImageDownloader/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUISelfLoadingImage/Preview Content\"";
 				DEVELOPMENT_TEAM = Q4783BNZ95;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -508,7 +508,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageDownloader.app/ImageDownloader";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUISelfLoadingImage.app/SwiftUISelfLoadingImage";
 			};
 			name = Debug;
 		};
@@ -533,7 +533,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageDownloader.app/ImageDownloader";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUISelfLoadingImage.app/SwiftUISelfLoadingImage";
 			};
 			name = Release;
 		};
@@ -586,7 +586,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5375A3E3275F302800BFFD46 /* Build configuration list for PBXProject "ImageDownloader" */ = {
+		5375A3E3275F302800BFFD46 /* Build configuration list for PBXProject "SwiftUISelfLoadingImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5375A40A275F302B00BFFD46 /* Debug */,
@@ -595,7 +595,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5375A40C275F302B00BFFD46 /* Build configuration list for PBXNativeTarget "ImageDownloader" */ = {
+		5375A40C275F302B00BFFD46 /* Build configuration list for PBXNativeTarget "SwiftUISelfLoadingImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5375A40D275F302B00BFFD46 /* Debug */,
@@ -604,7 +604,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5375A40F275F302B00BFFD46 /* Build configuration list for PBXNativeTarget "ImageDownloaderTests" */ = {
+		5375A40F275F302B00BFFD46 /* Build configuration list for PBXNativeTarget "SwiftUISelfLoadingImageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5375A410275F302B00BFFD46 /* Debug */,
@@ -613,7 +613,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5375A412275F302B00BFFD46 /* Build configuration list for PBXNativeTarget "ImageDownloaderUITests" */ = {
+		5375A412275F302B00BFFD46 /* Build configuration list for PBXNativeTarget "SwiftUISelfLoadingImageUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5375A413275F302B00BFFD46 /* Debug */,

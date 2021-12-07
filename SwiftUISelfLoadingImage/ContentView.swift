@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  ImageDownloader
+//  SwiftUISelfLoadingImage
 //
 //  Created by Keith Staines on 07/12/2021.
 //

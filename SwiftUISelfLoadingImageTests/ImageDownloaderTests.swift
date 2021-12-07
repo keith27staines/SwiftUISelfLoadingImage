@@ -1,6 +1,6 @@
 //
-//  ImageDownloaderTests.swift
-//  ImageDownloaderTests
+//  SwiftUISelfLoadingImageTests.swift
+//  SwiftUISelfLoadingImageTests
 //
 //  Created by Keith Staines on 07/12/2021.
 //
