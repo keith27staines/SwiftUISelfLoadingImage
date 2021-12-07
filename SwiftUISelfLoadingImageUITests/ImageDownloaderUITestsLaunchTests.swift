@@ -1,13 +1,13 @@
 //
-//  ImageDownloaderUITestsLaunchTests.swift
-//  ImageDownloaderUITests
+//  SwiftUISelfLoadingImageUITestsLaunchTests.swift
+//  SwiftUISelfLoadingImageUITests
 //
 //  Created by Keith Staines on 07/12/2021.
 //
 
 import XCTest
 
-class ImageDownloaderUITestsLaunchTests: XCTestCase {
+class SwiftUISelfLoadingImageUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

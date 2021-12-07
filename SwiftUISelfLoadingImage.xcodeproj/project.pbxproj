@@ -449,7 +449,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.keith27.ImageDownloader;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keith27.SwiftUISelfLoadingImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -479,7 +479,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.keith27.ImageDownloader;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keith27.SwiftUISelfLoadingImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -503,7 +503,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.keith27.ImageDownloaderTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keith27.SwiftUISelfLoadingImageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -528,7 +528,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.keith27.ImageDownloaderTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keith27.SwiftUISelfLoadingImageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -551,12 +551,12 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.keith27.ImageDownloaderUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keith27.SwiftUISelfLoadingImageUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ImageDownloader;
+				TEST_TARGET_NAME = SwiftUISelfLoadingImage;
 			};
 			name = Debug;
 		};
@@ -574,12 +574,12 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.keith27.ImageDownloaderUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keith27.SwiftUISelfLoadingImageUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ImageDownloader;
+				TEST_TARGET_NAME = SwiftUISelfLoadingImage;
 			};
 			name = Release;
 		};
